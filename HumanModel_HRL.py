@@ -3,7 +3,7 @@
 # Code Author: Shashi Suman                              #
 # Affiliations: Queen's University, Kingston             #
 # Date: 20th August 2020                                 #
-# Paper used in: ----------------------------------      #
+# Code used in: ----------------------------------       #
 ##########################################################
 
 # 					                Root
@@ -73,8 +73,8 @@ class HumanA:
         cont = self.cont = 11   # Primitive Action
         leave = self.leave = 12 # Primitive Action
 		
-		self.taskSet = [self.task0, self.task1, self.task2]
-		self.setPointSet = [self.set0, self.set1, self.set2]
+	self.taskSet = [self.task0, self.task1, self.task2]
+	self.setPointSet = [self.set0, self.set1, self.set2]
 
         self.graph = [
             (leave, cont, set0), # Node Activity 0
@@ -370,13 +370,13 @@ class HumanA:
     
 
     # MAX Q: Hierarchical Optimal Algorithm #                                                      
-    def MAXQ_HO(self, currentNode, state, task):                                                                 # #
-        visitedStates = []                                                                            #
-        if self.isNodePrimitive(currNode):                                                                       #
-            reward = self.step(currentNode, task)                                                                # # If i is a primitive action
-            # Update the Value Function #                                                             #
-            self.Qr[currentNode, state] = (1-self.alpha)*self.Qr[currentNode, state] + self.alpha*reward                          #
-            visitedStates.insert(0, state)                                                                #                                                     
+    def MAXQ_HO(self, currentNode, state, task):                                                       # #
+        visitedStates = []                                                                                 #
+        if self.isNodePrimitive(currNode):                                                                 #
+            reward = self.step(currentNode, task)                                                           # # If i is a primitive action
+            # Update the Value Function #                                                                  #
+            self.Qr[currentNode, state] = (1-self.alpha)*self.Qr[currentNode, state] + self.alpha*reward   #
+            visitedStates.insert(0, state)                                                             # #                                                     
 																								   # #
         else:
             # Check if the Node been terminated #
