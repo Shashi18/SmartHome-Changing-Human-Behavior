@@ -1,9 +1,26 @@
 ##########################################################
 # Human Model: Hierarchical Reinforcement Learning       #
 # Code Author: Shashi Suman                              #
+# Affiliations: Queen's University, Kingston             #
 # Date: 20th August 2020                                 #
 # Paper used in: ----------------------------------      #
 ##########################################################
+
+# 					                Root
+#                                             		  | 
+#                    _____________________________________|____________________________________
+#                    |	 				  |                                   |
+# 	      [Activity 0]		             [Activity 1]                        [Activity 2]
+#      ______________|_____________        _______________|______________	  ____________|__________
+#      |             |	          |        | 		  |	        |	  |	      |		|
+#  [Continue]	  [Leave]      	  |    [Continue]         |          [Leave]      |       [Continue]  Leave]
+# 				  |			  |			  |
+# 				  |_______________________|_______________________|
+# 				  			  |
+# 						     [Set Point]
+# 				         _________________|____________________
+# 				         |            |           |            |
+#                                      [I Temp]    [D Temp]     [I Hum%]     [D Hum%]
 
 # State space for the Root node (Node 6) #
 rootState = [(task << 10) | time for time in range(40) for task in range(3)]
