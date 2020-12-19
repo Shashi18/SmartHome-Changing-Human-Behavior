@@ -3,7 +3,7 @@
 # Code Author: Shashi Suman                              #
 # Affiliations: Queen's University, Kingston             #
 # Date: 20th August 2020                                 #
-# Code used in: ----------------------------------       #
+# Code used in: AAAI 21 Workshop, IJCAI 21               #
 ##########################################################
 
 # 					                Root
