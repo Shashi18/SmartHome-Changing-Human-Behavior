@@ -38,6 +38,8 @@ Smart homes are becoming increasingly popular as a result of advances in machine
   </h6>
   <p align="center">
   <img src="https://github.com/Shashi18/SmartHome-Changing-Human-Behavior/blob/master/Plots/Bar_123 (3)-1.jpg" width=30%>
+   
+    
   </p>
   <h6>
     Time-steps of human Models HA, HB, HC, and HD while setting TH for comfort, with and without the SHS.
@@ -48,6 +50,7 @@ Smart homes are becoming increasingly popular as a result of advances in machine
   <h6>
     Hierarchical 3 Part Value function for our human model.
   </h6>
+   <img src="https://github.com/Shashi18/SmartHome-Changing-Human-Behavior/blob/master/Plots/Exp_1_2_3-1.jpg" width=100%>
   
   <h2> Conclusion </h2>
   For future work, this study can be used as a framework to be expanded and include real \textit{human-home interaction} data. Such an experiment would require monitoring of user behaviour over a period of time in the presence of a smart thermostat within a smart home. The study would also require a control group where no smart home systems are utilized. Data such as those recorded by activity trackers as well as thermal settings, collected from both groups, would then be used to improve the existing human models or even generate new ones for accurate representation of human behavior in the context of decision making as influenced by smart home systems. With an improved RL-based human model, the arbitrariness of the human behaviour especially when interacting with smart home systems through a longitudinal study could be better understood. Lastly, our study shows that human adaptability could be an important factor to take into account when designing a smart home system. Developing a reliable and effective  model of human adaptability could be critical to best predict the smart home performance in real contexts and it's potential implications and impacts on human behaviours.
